@@ -1,2 +1,4 @@
 # Notes & Tips
-Notes from tech field books
+
+1. Clean Code
+2. Pragmatic Unit Testing in java 8 with JUnit - Jeff Langr
