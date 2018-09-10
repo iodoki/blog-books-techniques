@@ -12,3 +12,5 @@ When start adding a 2nd assert -> _"Does this assertion help to verify a single 
  * **[R]epeatable** test is one that produces the same results each time you run it, and are accomplished after isolating them from the external environment, which is not in your direct control. 
  * **[S]elf-validating**. Old way of using main() method to test, requires always to visually verify the output. JUnit does that work for you, tests either _pass_ or _fail_. Tests aren't tests, unless they assert that things went as expected. Automate the process __when__ & __how__ these tests run. _(In larger scale can be done with a tool like Jenkins, which watches your source repository and kicks a build/test process when it recognizes changes.)_
  * **[T]imely**. Direct your efforts to more troubled or dynamic spots in your system, only if the code reveals defects and need to be changed.
+
+**What to test?** - __The right-BICEP__
