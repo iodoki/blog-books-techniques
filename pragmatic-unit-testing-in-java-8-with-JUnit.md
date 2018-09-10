@@ -1,6 +1,6 @@
 # Pragmatic Testing
 
-Keeping some notes & tips from the great book of [Jeff Langr - Pragmatic Unit Testing in Java 8 with JUnit](https://pragprog.com/book/utj2/pragmatic-unit-testing-in-java-8-with-junit)
+Keeping some notes & tips from the great book ofJeff Langr - [Pragmatic Unit Testing in Java 8 with JUnit](https://pragprog.com/book/utj2/pragmatic-unit-testing-in-java-8-with-junit)
 
 ## Part #2 - Mastering Manic Mnemonics
 
