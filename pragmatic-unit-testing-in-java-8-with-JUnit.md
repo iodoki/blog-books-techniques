@@ -14,3 +14,11 @@ When start adding a 2nd assert -> _"Does this assertion help to verify a single 
  * **[T]imely**. Direct your efforts to more troubled or dynamic spots in your system, only if the code reveals defects and need to be changed.
 
 **What to test?** - __The right-BICEP__
+
+
+
+## Part #3
+
+**Refactoring to Cleaner Code** - transforming your code structure while retaining the existing functional behavior.
+ * **Minimize the amount of duplication** - every piece of code duplicated increases the cost & risk to maintain it.
+ * **Rename** - 
