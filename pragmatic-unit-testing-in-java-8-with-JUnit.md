@@ -1,4 +1,8 @@
-Pragmatic Unit Testing in Java 8 with JUnit was written by Jeff Langr with Andy Hunt and Dave Thomas. 
+#Book Review - Pragmatic Unit Testing in Java 8 with JUnit
+
+[Pragmatic Unit Testing in Java 8 with JUnit](https://pragprog.com/book/utj2/pragmatic-unit-testing-in-java-8-with-junit) was written by Jeff Langr with Andy Hunt and Dave Thomas. 
+
+
 
 In this book, the authors intentions are to demonstrate that unit tests are quite simple; the real problems that complicate unit testing and introduce expensive complexity, are a result of poorly-designed, untestable code. 
 
@@ -10,7 +14,7 @@ If you agree with the authors guidelines (which we did) then this is a very good
 
 
 
-Overview
+__Overview__
 
 The first part of the book is a presentation of JUnit principles and gets the reader started if they are not familiar with testing.
 
@@ -22,17 +26,18 @@ In the last part context tests are created in, such as test driven development (
 
 
 
-Content
+__Content__
 
-Introduction
+__Introduction__
 
 The author quickly summarizes that testing matters, because it's an integral fundamental part of coding nowadays.
 
-Part 1: Unit-Testing Foundations
+__Part 1: Unit-Testing Foundations__
 
 Simple examples are demonstrated to get the reader started and how to best organize the thoughts of what to test. 
 
 Chapter 1:  Building Your First JUnit
+
 At first the author describes all the different reasons why it's important to automate tests. Primarily for faster feedback and to document what your code does.
 
 A good practice of test-driven development (TDD) to avoid bad, costly assumptions, is to start on failing your tests, to prove that they really are doing something.
@@ -40,9 +45,11 @@ A good practice of test-driven development (TDD) to avoid bad, costly assumption
 
 
 Chapter 2:  Getting Real with JUnit
+
 This part is focusing more to understand what exactly to test and how exactly to structure your test code with the original, -classic-style version of JUnit. A starting point what to test is to look at loops, if statement, and complex conditionals. After that, consider data variants and how they would affect evaluation of the conditionals in the code.
 
 Chapter 3:  Digging Deeper into JUnit Assertions
+
 This chapter shows a newer way, more expressive style, known as Junit's Hamcrest assertions which will follow in the rest parts of the book. The idea behind this approach is to assertThat Something Is Equal To Another Something. The first argument of assertThat() static method is the actual expression, the value we want to verify and the second argument is a matcher. JUnit Hamcrest matchers let you:
 
 Verify the type of an object
@@ -54,6 +61,7 @@ Verify that all elements in a collection conform to a matcher
 The next step is to get comfortable how they work.
 
 Chapter 4:  Organizing Your Tests
+
 Follow with a (AAA) scenario -test case- for better structure of JUnit's tests with the Hamcrest approach:
 
 Arrange - First, we need to set up the state in order to do anything in the test.
@@ -85,7 +93,7 @@ givenSomeContextWhenDoingSomeBehaviorThenSomeResultOccurs - if this seems too lo
 whenDoingSomeBehaviorThenSomeResultOccurs
 
 
-Part 2: Mastering Manic Mnemonics
+__Part 2: Mastering Manic Mnemonics__
 The author suggests to optimize when the following problems shows up:
 
 Tests that make little sense to follow.
@@ -149,7 +157,8 @@ Chapter 7: Boundary Conditions: The CORRECT Way
 
 
 
-Part 3: The Bigger Design Picture
+__Part 3: The Bigger Design Picture__
+
 A good practice that would lead the quality of code to clarity, conciseness, flexibility in design to minimize the maintenance and maximize understanding is certainly the refactoring. 
 
 Chapter 8:  Refactoring to Cleaner Code
@@ -192,14 +201,17 @@ Other ways of injection - use setters instead of constructor, or override factor
 The next step would be to transform the created stub into a mock pattern known as when(...).thenReturn(...) that introduces a single-line act, and a single assert. Mocks are useful when it comes to write more than a second test using the same mock, it really shrinks the amount of code the programmer need to write.
 
 Chapter 11: Refactoring Tests
+
 Remove try/catch blocks and replace them by throwing a IO Exception
 Two or three lines of code that implement a single concept - find a way to distill them to a single clear assert statement in the test, etc.
 
 
 Part 4: The Bigger Unit-Testing Picture
+
 In the last part of the book we come back to testing but we don't look at what makes unit-tests good, but how to obtain them. 
 
 Chapter 12: Test Driven Development (TDD)
+
 To introduce TDD the authors go quickly over the red-green-refactor cycle:
 
 Write a test that fails.
@@ -226,21 +238,26 @@ For both problems they suggest to use prepared well-tested components that alrea
 If that's not enough they give a concrete simple integration test example that covers resetting the database to a known state before each test. Fortunately with Spring Boot you can use the excellent @DataJpaTest, which already does this and some more things for you. 
 
 Chapter 14: Testing on a Project
+
 The last chapter is about testing in a team. They emphasize that it's important everybody in a team agrees on what and how to test. They suggest to set explicit testing standards to define:
 
-Definition of Done and when tests should be written
-Naming of test classes and method
-If you want to follow the BDD style Arrange, Act, Assert code blocks
-Which assertion library to use (I would suggest AssertJ or Hamcrest)
-Which mock library to use (mockito seems pretty good IMHO)
-How do you define the border between unit tests and integration tests in you team?
-How much code coverage do you roughly want to achieve?
+*  Definition of Done and when tests should be written
+*  Naming of test classes and method
+*  If you want to follow the BDD style Arrange, Act, Assert code blocks
+*  Which assertion library to use (I would suggest AssertJ or Hamcrest)
+*  Which mock library to use (mockito seems pretty good IMHO)
+*  How do you define the border between unit tests and integration tests in you team?
+*  How much code coverage do you roughly want to achieve?
+
+
 Lastly they quickly go over a couple of best practices that generally help:
 
-a CI server
-code reviews
-pair programming
-Conclusion
+* a CI server
+* code reviews
+* pair programming
+
+__Conclusion__
+
 In one way or another, after digging through this book, you are definitely surprised by how pragmatic the author is in some real test case scenarios. Sometime he decides to break the rules to give you an impression how you strive for the optimum but not waste effort by slavishly following a rule. 
 
 He initiates paradigms on where exactly to prioritize assumptions and how to structure test cases, which are enough to introduce you to the unit-testing field and improve the quality of your software. His guidelines and intuitions help you a lot when trying to design clean, maintainable code - "Übersichtlich" in German.
