@@ -1,9 +1,3 @@
 # Book Club
 
-
-
-## Review Articles
-
-[Pragmatic Unit Testing in java 8 with JUnit - Jeff Langr](https://github.com/mdoklea/books/wiki/Pragmatic-Unit-Testing)
-
-Clean Code
+I can read books at any place at any time but I like to read a book with a cup of coffee and in my favourite corner of the house. The times that I really liked a book I speed up to finish it. I can tell you even the next day I just had an impression of what I had read. Unfortunately, I couldn't articulate my thoughts or give a feedback for that book. So sad! I felt horrible to spend time on something that I really liked, but I could barely remember parts of it as time passed.
