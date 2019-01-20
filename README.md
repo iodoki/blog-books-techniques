@@ -1,6 +1,6 @@
 # Progress by Reading
 
-Reading a good book is like being around an inspiring person. You observe inspiring actions, feel contagious passion, and desire to live a better life. As a Software Engineer/Developer I am reading tech books because I want to put words into my code actions and decisions, and I don't mean writing better code comments. I would like to gain factual knowledge from the great authors and mentors of the field.
+Reading a good book is like being around an inspiring person. You observe inspiring actions, feel contagious passion, and desire to live a better life. As a Software Engineer/Developer I am reading tech books because I want to put words into my code actions and decisions, and I don't mean writing better code comments. I would like to gain factual knowledge from the great authors and mentors of the field and contribute to better design software.
 
 > By modeling what the business needs today, you will save a considerable amount of time, budget, code, and embarrassment. --Vernon, Vaughn. Domain-Driven Design Distilled (p. 95). 
 
