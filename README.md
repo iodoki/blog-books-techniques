@@ -6,7 +6,7 @@ As a Software Engineer/Developer I have been many times in the situation of writ
 
 > By modeling what the business needs today, you will save a considerable amount of time, budget, code, and embarrassment. --Vernon, Vaughn. Domain-Driven Design Distilled (p. 95). 
 
-Improving knowledge just by reading an article is not enough for me, I am missing parts of the puzzle.  I would like to gain factual knowledge from the great authors and mentors of the field and contribute to effective design of software. Thus, I have decided to keep notes and write a book overview or review from tech field books. Along these lines, I can come back easily and refresh concepts. In case that you are curious which are the books that have inspired me or are helping me to be a better developer of the field, are [here](https://github.com/mdoklea/books/wiki).
+Improving knowledge just by reading an article is not enough for me, I am missing parts of the puzzle.  I would like to gain factual knowledge from the great authors and mentors of the field. The point is not just to be informed but also to  be enlighted and contribute to effective software design. Thus, I have decided to keep notes and write a book overview or review from tech field books. Along these lines, I can come back easily and refresh concepts. In case that you are curious which are the books that have inspired me or are helping me to be a better developer of the field, are [here](https://github.com/mdoklea/books/wiki).
 
 
 
